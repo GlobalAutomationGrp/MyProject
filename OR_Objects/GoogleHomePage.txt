@@ -1,0 +1,1 @@
+google_srch_btn::XPATH:://input[@value='Google Search' and @type='submit']

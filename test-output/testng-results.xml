@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Initiating web button object:[[ChromeDriver: chrome on XP (1bb09385266b7f0f90dd1fce2b60b028)] -> xpath: //input[@value='Google Search' and @type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Button is visible:[[ChromeDriver: chrome on XP (1bb09385266b7f0f90dd1fce2b60b028)] -> xpath: //input[@value='Google Search' and @type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Button is enabled:[[ChromeDriver: chrome on XP (1bb09385266b7f0f90dd1fce2b60b028)] -> xpath: //input[@value='Google Search' and @type='submit']]]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="11501" started-at="2016-05-06T06:38:25Z" finished-at="2016-05-06T06:38:36Z">
+    <groups>
+    </groups>
+    <test name="TestCase1" duration-ms="11501" started-at="2016-05-06T06:38:25Z" finished-at="2016-05-06T06:38:36Z">
+      <class name="TestScripts.TestCase1">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:TestScripts.TestCase1@4c203ea1]" name="beforeTest" is-config="true" duration-ms="4419" started-at="2016-05-06T12:08:25Z" finished-at="2016-05-06T12:08:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testSearchBtn()[pri:0, instance:TestScripts.TestCase1@4c203ea1]" name="testSearchBtn" duration-ms="5877" started-at="2016-05-06T12:08:29Z" finished-at="2016-05-06T12:08:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Initiating web button object:[[ChromeDriver: chrome on XP (1bb09385266b7f0f90dd1fce2b60b028)] -> xpath: //input[@value='Google Search' and @type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Button is visible:[[ChromeDriver: chrome on XP (1bb09385266b7f0f90dd1fce2b60b028)] -> xpath: //input[@value='Google Search' and @type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Button is enabled:[[ChromeDriver: chrome on XP (1bb09385266b7f0f90dd1fce2b60b028)] -> xpath: //input[@value='Google Search' and @type='submit']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchBtn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestScripts.TestCase1@4c203ea1]" name="afterTest" is-config="true" duration-ms="1201" started-at="2016-05-06T12:08:35Z" finished-at="2016-05-06T12:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestScripts.TestCase1 -->
+    </test> <!-- TestCase1 -->
+  </suite> <!-- TestSuite -->
+</testng-results>

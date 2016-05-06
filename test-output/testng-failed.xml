@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoSuite]">
+  <test name="Test case 1(failed)">
+    <classes>
+      <class name="TestScripts.TestCase1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testCheckBox"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase1 -->
+      <class name="TestScripts.TestCase2">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase2 -->
+    </classes>
+  </test> <!-- Test case 1(failed) -->
+  <test name="Test case 2(failed)">
+    <classes>
+      <class name="TestScripts.TestCase1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase1 -->
+      <class name="TestScripts.TestCase2">
+        <methods>
+          <include name="testFilter"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase2 -->
+    </classes>
+  </test> <!-- Test case 2(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->
